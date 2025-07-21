@@ -10,31 +10,12 @@
 		643C24B32B99104200C2A6AA /* MauiFacebook.h in Headers */ = {isa = PBXBuildFile; fileRef = 643C24B22B99104200C2A6AA /* MauiFacebook.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		646787CA2B99125200677775 /* MauiFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646787C92B99125200677775 /* MauiFacebook.swift */; };
 		DBD411BD2E1FC02E009F598F /* FBAEMKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BA2E1FC02E009F598F /* FBAEMKit.xcframework */; };
-		DBD411BE2E1FC02E009F598F /* FBAEMKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BA2E1FC02E009F598F /* FBAEMKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD411BF2E1FC02E009F598F /* FBSDKCoreKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BB2E1FC02E009F598F /* FBSDKCoreKit.xcframework */; };
-		DBD411C02E1FC02E009F598F /* FBSDKCoreKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BB2E1FC02E009F598F /* FBSDKCoreKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD411C12E1FC02E009F598F /* FBSDKCoreKit_Basics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BC2E1FC02E009F598F /* FBSDKCoreKit_Basics.xcframework */; };
-		DBD411C22E1FC02E009F598F /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411BC2E1FC02E009F598F /* FBSDKCoreKit_Basics.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBD411C42E1FC036009F598F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411C32E1FC036009F598F /* Accelerate.framework */; };
 		DBD411C62E1FC03C009F598F /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411C52E1FC03C009F598F /* AdSupport.framework */; };
 		DBD411C82E1FC042009F598F /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD411C72E1FC042009F598F /* AppTrackingTransparency.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6425FFC92BBE067600F9DAB3 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DBD411C02E1FC02E009F598F /* FBSDKCoreKit.xcframework in Embed Frameworks */,
-				DBD411C22E1FC02E009F598F /* FBSDKCoreKit_Basics.xcframework in Embed Frameworks */,
-				DBD411BE2E1FC02E009F598F /* FBAEMKit.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		643C24AF2B99104200C2A6AA /* MauiFacebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MauiFacebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,7 +107,6 @@
 				643C24AB2B99104200C2A6AA /* Sources */,
 				643C24AC2B99104200C2A6AA /* Frameworks */,
 				643C24AD2B99104200C2A6AA /* Resources */,
-				6425FFC92BBE067600F9DAB3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
